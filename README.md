@@ -1,21 +1,33 @@
 # 📊 Retail Data Analysis Dashboard | Power BI
+📌 End-to-end retail data analysis project covering customer behavior, sales trends, and campaign performance using Power BI.
+---
+## 🚀 Problem Statement  
+This project focuses on understanding customer behavior, product performance, and campaign effectiveness using retail transaction data.  
+The goal is to understand what drives sales and how businesses can improve their marketing and revenue decisions.
+---
+
+## 📊 Dataset  
+The dataset contains:
+- Customer demographics (age, income, household details)
+- Transaction-level purchase data  
+- Product information (category, brand, department)  
+- Campaign and coupon data  
 
 ---
 
-## 🔹 Overview
-This project analyzes retail transaction data from 2,500 households.  
-The objective is to understand customer behavior, product performance, campaign impact, and overall sales trends through an interactive Power BI dashboard.
-
-The project focuses on converting raw retail data into meaningful business insights.
-
+## 🔍 Key Insights  
+- A significant portion of revenue comes from repeat customers, highlighting strong retention  
+- Some campaigns show high participation but low conversion, indicating targeting issues  
+- Discounts increase sales volume but can negatively impact profitability  
+- Certain product combinations are frequently purchased together, creating cross-selling opportunities
+  
 ---
 
-## 🎯 Objectives
-- Study customer demographics and purchasing patterns  
-- Evaluate campaign and coupon performance  
-- Identify high-performing products and departments  
-- Analyze revenue trends and discount impact  
-- Explore product combinations using market basket analysis  
+## 💡 Business Recommendations  
+- Focus more on repeat customers to improve revenue  
+- Improve targeting for campaigns with low conversion  
+- Optimize discount strategies instead of over-discounting  
+- Use product bundling for frequently bought items  
 
 ---
 
@@ -28,95 +40,30 @@ The project focuses on converting raw retail data into meaningful business insig
 
 ---
 
-## 📂 Dataset Summary
-The dataset includes:
-
-- Household demographic information  
-- Transaction-level purchase records  
-- Product details (brand, category, department)  
-- Campaign information  
-- Coupon issuance and redemption data  
-
-All tables were connected using a relational data model inside Power BI.
-
----
-
 ## 📊 Dashboard Sections
 
-The dashboard is divided into focused analytical sections to provide a complete view of retail performance.
+The dashboard is divided into multiple sections to cover different aspects of retail analysis:
 
----
+### 1. Descriptive Analysis  
+Gives an overview of customer demographics like age, income, household size, and basic campaign information.
 
-### 1️⃣ Descriptive Analysis
-- Demographic distribution (age, income, marital status, homeownership)  
-- Household size and kid category breakdown  
-- Campaign timeline overview  
-- Basic product attribute exploration  
+### 2. Product Analysis  
+Shows how products perform across categories, brands, and departments, helping identify top-performing areas.
 
-This section builds a clear understanding of the customer base and campaign setup.
+### 3. Customer Segmentation  
+Breaks down customers based on demographics and purchase behavior to understand different customer groups.
 
----
+### 4. Campaign Analysis  
+Analyzes campaign performance, participation, and how coupons impact customer purchases.
 
-### 2️⃣ Product Overview
-- Product distribution across departments and commodities  
-- Brand and manufacturer contribution  
-- Sub-category level breakdown  
-- Product size analysis  
-- Hierarchical category structure  
+### 5. Sales & Revenue  
+Focuses on overall sales trends, top products, and how different types of discounts affect revenue.
 
-This module highlights the retailer’s product mix and category performance.
+### 6. Market Basket Analysis  
+Identifies products that are frequently bought together, useful for cross-selling and bundling.
 
----
-
-### 3️⃣ Customer Segmentation
-- Segmentation based on demographic factors  
-- Purchase behavior analysis using transaction data  
-- Customer grouping by campaign participation and coupon redemption  
-
-This section identifies valuable and behavior-driven customer segments.
-
----
-
-### 4️⃣ Campaign Performance
-- Campaign duration and activity tracking  
-- Household participation by campaign  
-- Coupon redemption performance  
-- Sales impact of campaigns  
-
-This module evaluates marketing effectiveness and engagement.
-
----
-
-### 5️⃣ Sales & Revenue Analysis
-- Revenue and transaction trends  
-- Top-performing products, brands, and departments  
-- Impact of discounts:  
-  - Retail discount  
-  - Coupon discount  
-  - Coupon match discount  
-- Relationship between discounts and sales growth  
-
-This section focuses on revenue drivers and financial insights.
-
----
-
-### 6️⃣ Market Basket Analysis
-- Frequently purchased product combinations  
-- Product pair frequency tracking  
-- Cross-selling opportunity identification  
-- Insights for bundling strategies  
-
-This module uncovers purchasing relationships between products.
-
----
-
-### 7️⃣ Time Series Analysis
-- Sales trends over time  
-- Coupon redemption trends  
-- Seasonality and cyclic patterns  
-- Forecasting of future sales and demand  
-
-This section supports planning and strategic decision-making.
+### 7. Time Series Analysis  
+Tracks sales and coupon trends over time to identify patterns and seasonality.
 
 ---
 
@@ -162,8 +109,8 @@ Download the `.pbix` file and open it in Power BI Desktop to explore the full in
 
 ---
 
-## 👩‍💻 Author
+## 👩‍💻 Author  
 
 **Neha Deshmukh**  
 Aspiring Data Analyst  
-Power BI | DAX | Data Modeling  
+Skilled in SQL, Power BI, and Python  
